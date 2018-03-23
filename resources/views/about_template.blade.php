@@ -17,7 +17,7 @@
                 <div class="panel-body"><h4>See Project at github <i class="fa fa-github"></i></h4>
                     <ul class="list-inline" style="font-size: 1.1em">
                         <li ><a target='_blank' href="http://github.com/karthikbhyresh/CropSeer" class="label label-primary">Web Application Part</a></li>
-                        <li ><a target='_blank' href="http://github.com/karthikbhyresh/CropSeer-python" class="label label-danger">Machine Learning Part</a></li>
+                        <li ><a target='_blank' href="http://github.com/karthikbhyresh/CropSeer-python-master" class="label label-danger">Machine Learning Part</a></li>
                     </ul>
                     <a href="https://github.com/karthikbhyresh/CropSeer">
 
@@ -45,8 +45,8 @@
             <div class="panel panel-info">
                 <div class="panel-body"><h4>See Project at github  <i class="fa fa-github"></i></h4>
                     <ul class="list-inline" style="font-size: 1.1em">
-                        <li ><a target='_blank' href="https://github.com/karthikbhyresh/CropSeer" class="label label-primary">Web Application Part</a></li>
-                        <li ><a target='_blank' href="https://github.com/karthikbhyresh/CropSeer-python" class="label label-danger">Machine Learning Part</a></li>
+                        <li ><a target='_blank' href="http://github.com/karthikbhyresh/CropSeer" class="label label-primary">Web Application Part</a></li>
+                        <li ><a target='_blank' href="http://github.com/karthikbhyresh/CropSeer-python-master" class="label label-danger">Machine Learning Part</a></li>
                     </ul>
                     <a target='_blank' href="https://github.com/karthikbhyresh/CropSeer">
 
