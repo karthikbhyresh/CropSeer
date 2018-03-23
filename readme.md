@@ -19,7 +19,7 @@ CropSeer is accessible, yet powerful  tools needed for crop yeild prediction.
 A superb combination of simplicity, elegance, and innovation give you tools you need to properly regulate your
 farming strategies according to environment and market.
 
-## technology used
+## Technology used
 <p >
 
 <img width='250' height='200'  src="https://camo.githubusercontent.com/5ceadc94fd40688144b193fd8ece2b805d79ca9b/68747470733a2f2f6c61726176656c2e636f6d2f6173736574732f696d672f636f6d706f6e656e74732f6c6f676f2d6c61726176656c2e737667">
@@ -40,7 +40,7 @@ Thank you for considering contributing for the greater good for farmers!
 
 ## Vulnerabilities
 
-If you discover a vulnerability within CropSeer, please send an e-mail tokarthikat karthikganesh18k@gmail.com. All  vulnerabilities will be promptly addressed.
+If you discover a vulnerability within CropSeer, please send an e-mail to karthikat karthikganesh18k@gmail.com. All  vulnerabilities will be promptly addressed.
 
 ## License
 
