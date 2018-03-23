@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<!-- saved from url=(0042)http://localhost/kisan/public/predict.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Js/predict | Kisanmitra</title>
+    <link href="./predict_files/bootstrap.min.css" rel="stylesheet" type="text/css" media="all">
+
+    <link href="./predict_files/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="shortcut icon" href="http://localhost/kisan/public/images/favicon.ico">
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="./predict_files/jquery.min.js.download"></script>
+    <!-- Custom Theme files -->
+    <link href="./predict_files/style.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Custom Theme files -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1);}
+    </script>
+    <meta name="keywords" content="Kisan Mitra Responsive web template, Bootstrap Web Templates, Flat Web Templates, AndriodCompatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design">
+    <!--Google Fonts-->
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="./predict_files/move-top.js.download"></script>
+    <script type="text/javascript" src="./predict_files/easing.js.download"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+
+            //ap_popupdown for changing the size of login and signup button when we hover mouse over them
+            $("#user-in a").hover(function(){
+                $(this).css('font-size','1em');
+                $(this).css("backgroundColor",'#f4d638')
+            });
+            $("#user-in a").mouseleave(function(){
+                $(this).css('font-size','0.8em');
+                $(this).css("backgroundColor",'#956295')
+            });
+
+        });
+    </script>
+    <!-- //end-smoth-scrolling -->
+    <script src="./predict_files/menu_jquery.js.download"></script>
+
+    <!---pop-up-box---->
+    <link href="./predict_files/popuo-box.css" rel="stylesheet" type="text/css" media="all">
+    <script src="./predict_files/jquery.magnific-popup.js.download" type="text/javascript"></script>
+    <!---//pop-up-box---->
+
+
+
+    <!--//footer-->
+
+    <!-- Custom Theme files -->
+    <link href="./predict_files/style.css" rel="stylesheet" type="text/css" media="all">
+    <!-- Custom Theme files -->
+
+    <style>    #heading{
+        box-sizing: border-box;
+        color: #956295;
+        text-decoration: none;
+        font-family: 'Viga-Regular';
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 44px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        position: relative;
+        text-align: center;
+
+    }
+    .ap-heading{
+        box-sizing: border-box;
+        color: #956295;
+        text-decoration: none;
+        font-family: 'Viga-Regular';
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 44px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 0px;
+        position: relative;
+        text-align: center;
+
+    }
+
+
+</style>
+</head>
+<body>
+    <!--header start here-->
+    <div class="header">
+        <div class="container">
+            <div class="header-main">
+                <div class="head-left">
+                    <div class="phone">
+                        <p>Phone<span class="ph-numb">+91 7705047900</span></p>
+                        <p><a target="_blank" href="http://github.com/ashishpatel0720/kisanmitra" style="color:#956295"><i class="fa fa-github fa-2x"></i></a></p>
+                    
+                    </div>
+                    <div class="phone">
+                      </div>
+
+                    <div id="small-dialog" class="mfp-hide">
+                        <div>
+                            <p>Kisan Mitra</p>
+                        </div>
+                    </div>
+                    <!---->
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="header-right">
+                    <div class="logo">
+                        <h1><a href="http://localhost/">Kisan&nbsp;Mitra<small><small></small></small></a></h1>
+                    </div>
+
+                    
+                    <div class="top-nav-right pull-right col-sx-12" style="font-size:1.3em;" id="user-in">
+                        <a href="http://localhost/kisan/public/login" class="label label-default" style="background-color: #956295;">Login</a>
+                        <a href="http://localhost/kisan/public/register" class="label label-success" style="background-color: #956295;">Signup</a>
+                    </div>
+
+
+                                </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"> </div>
+    </div>
+</div>
+
+<!--header end here-->
+<!--top nav start here-->
+<div class="top-navg-main">
+    <div class="container">
+        <div class="top-navg">
+            <span class="menu"> <img src="./predict_files/icon.png" alt=""></span>
+            <ul class="res">
+                <li><a href="http://localhost/" class="active hvr-sweep-to-bottom">Home</a></li>
+                <li><a href="http://localhost/predict" class="active hvr-sweep-to-bottom">Predict</a></li>
+                <li><a class="hvr-sweep-to-bottom" href="http://localhost/about">About Kisanmitra</a></li>
+                <li><a class="hvr-sweep-to-bottom" href="http://localhost/how-to-use">How to Use</a></li>
+                <li><a class="hvr-sweep-to-bottom" href="http://localhost/contact">Contact</a></li>
+                <li><a class="hvr-sweep-to-bottom" href="http://localhost/discuss">Feedback</a></li>
+                <li><a class="hvr-sweep-to-bottom" href="http://localhost/team">Team</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!--top nav end here-->
+
+    <style>
+        #smart-button{
+            background-attachment: scroll;
+            background-clip: border-box;
+            background-color: rgb(149, 98, 149);
+            background-image: none;
+            background-origin: padding-box;
+            background-position: 0% 0%;
+            background-position-x: 0%;
+            background-position-y: 0%;
+            background-repeat: repeat;
+            background-size: auto auto;
+            border-bottom-color: rgb(255, 255, 255);
+            border-bottom-style: none;
+            border-bottom-width: 0px;
+            border-image-outset: 0 0 0 0;
+            border-image-repeat: stretch stretch;
+            border-image-slice: 100% 100% 100% 100%;
+            border-image-source: none;
+            border-image-width: 1 1 1 1;
+            border-left-color: rgb(255, 255, 255);
+            border-left-style: none;
+            border-left-width: 0px;
+            border-right-color: rgb(255, 255, 255);
+            border-right-style: none;
+            border-right-width: 0px;
+            border-top-color: rgb(255, 255, 255);
+            border-top-style: none;
+            border-top-width: 0px;
+            box-sizing: border-box;
+            color: rgb(255, 255, 255);
+            cursor: pointer;
+            font-family: "Oxygen-Regular";
+            font-feature-settings: normal;
+            font-kerning: auto;
+            font-language-override: normal;
+            font-size: 14.4px;
+            font-size-adjust: none;
+            font-stretch: normal;
+            font-style: normal;
+            font-synthesis: weight style;
+            font-variant: normal;
+            font-variant-alternates: normal;
+            font-variant-caps: normal;
+            font-variant-east-asian: normal;
+            font-variant-ligatures: normal;
+            font-variant-numeric: normal;
+            font-variant-position: normal;
+            font-weight: 400;
+            line-height: 20.5667px;
+            margin-bottom: 0px;
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-top: 8.63333px;
+            padding-bottom: 5.76667px;
+            padding-left: 14.4px;
+            padding-right: 14.4px;
+            padding-top: 5.76667px;
+            -moz-border-bottom-colors: none;
+            -moz-border-left-colors: none;
+            -moz-border-right-colors: none;
+            -moz-border-top-colors: none;
+
+        }
+    </style>
+
+
+    <div class="container" style="margin-top:3em;margin-bottom:3em; ">
+        <div class="row">
+            <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2" style="margin-top:-3em;">
+                <h1 id="heading" style="margin-bottom:0em;">Predict</h1>
+                
+
+                <form action="http://localhost/kisan/public/js/result" method="post">
+                    <input type="hidden" name="_token" value="JbWbpfsIhzEIFTy0btynyn4mxm9bMIIz2MQDpzm8">
+                    
+                    <div class="form-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><label for="state">Select state</label>
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <select class="form-control" name="state" id="state" onclick="state_selected()" required="">
+                                    <option value="empty">Select State</option>
+                                    <option value="madhya_pradesh">Madhya Pradesh</option>
+                                    <option value="bihar">Bihar</option>
+                                    <option value="gujrat">Gujrat</option>
+                                    <option value="himachal_pradesh">Himachal Pradesh</option>
+                                    <option value="maharastra">Maharastra</option>
+                                    <option value="rajasthan">Rajasthan</option>
+                                    <option value="uttarakhand">Uttarakhand</option>
+                                    <option value="uttar_pradesh">Uttar Pradesh</option>
+                                    <option value="west_bengal">West Bengal</option>
+                                    <option value="assam">Assam</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    
+                    <div class="form-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><label for="region">Select Region</label>
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <select class="form-control" name="region" id="region" required="">
+                                    <option value="">Select Region</option><option value="gaya">gaya</option>
+
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="form-group">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><label for="crop">Crop</label>
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <select class="form-control" name="crop" id="crop" required="">
+                                    <option value="">Select Crop</option>
+                                    <option value="banana"> banana</option>
+                                    <option value="barley">barley</option>
+                                    <option value="ginger">ginger</option>
+                                    <option value="grape">grape</option>
+                                    <option value="greenpea">green pea</option>
+                                    <option value="maize">maize</option>
+                                    <option value="papaya">papaya</option>
+                                    <option value="pineapple">pineapple</option>
+                                    <option value="potato">potato</option>
+                                    <option value="rice">rice</option>
+                                    <option value="sugarcane">sugarcane</option>
+                                    <option value="tea">tea</option>
+                                    <option value="tomato">tomato</option>
+                                    <option value="wheat">wheat</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="form-group" style="margin-top: 3em;margin-bottom: 3em;">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title"><label for="area">Your Agricultural  Area (Hactares)</label></h3>
+                            </div>
+                            <div class="panel-body">
+                                <input type="number" name="area" class="form-control" id="area" placeholder="Area in Hectares" required="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="pull-right form-group" style="margin-right:1em;margin-top:-3em;">
+                        <input type="submit" id="smart-button" class="btn btn-primary hvr-wobble-bottom" value="   Submit        ">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./predict_files/predict.js.download" charset="utf-8"></script>
+
+<div class="footer">
+
+    <div class="container">
+        <div class="footer-main">
+            <div class="col-md-4 ftr-grd">
+                <h3>Get in Touch</h3>
+                <p>Maulana Azad National Institute of Technology</p>
+                <p>Bhopal, India</p>
+                <p>Phone: +91 7705047900</p>
+            </div>
+            <div class="col-md-4 ftr-grd">
+                <h3>Get Social</h3>
+                <ul>
+                    <li><a target="_blank" href="http://facebook.com/ashispatel0720"><span class="fa"> </span></a></li>
+                    <li><a target="_blank" href="http://twitter.com/ashispatel0720"><span class="tw"> </span></a></li>
+                    <li><a target="_blank" href="http://linkedin.com/ashispatel0720"><span class="in"> </span></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 ftr-grd">
+                <h3>Contact Us</h3>
+                <p>If you have any query or question, please Contact us.</p>
+                <label class="hvr-wobble-bottom">
+                    <input type="submit" onclick="window.location.href=&#39;/contact&#39;" value="Contact">
+                </label>
+
+            </div>
+
+            <div class="clearfix"> </div>
+
+            <div class="copy-right">
+                <p><i class="fa fa-code"></i> with <i class="fa fa-heart red" style="color:red"></i> by <a href="http://www.ashishpatel.info/" target="_blank">Ashish Patel</a> and <a href="http://localhost/team">Team</a></p>
+                <p>© 2017-forever Kisan Mitra. Nothing reserved ;)</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- script-for-menu -->
+<script>
+    $( "span.menu" ).click(function() {
+        $( "ul.res" ).slideToggle( 300, function() {
+            // Animation complete.
+        });
+    });
+
+</script>
+<!-- /script-for-menu -->
+<script src="./predict_files/app.js.download"></script>
+
+
+
+</body></html>
