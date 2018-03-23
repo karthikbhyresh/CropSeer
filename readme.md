@@ -10,10 +10,10 @@ an educated farmer can do way better than a experienced uneducated one, because 
 to make proper planning about his/her future.
 using CropSeer , one can predict the crop yield for next 5 year.
 
-- [Simple, fast Algorithm](https://CropSeer.ml/predict).
-- Expressive, intuitive visualization Using Charts(https://CropSeer.ml/visualize).
-- [Robust background machine learning](https://CropSeer.ml/about).
-- [Hardworking Team](https://CropSeer.ml/team).
+- Simple, fast Algorithm.
+- Expressive, intuitive visualization Using Charts.
+- Robust background machine learning
+
 
 CropSeer is accessible, yet powerful  tools needed for crop yeild prediction.
 A superb combination of simplicity, elegance, and innovation give you tools you need to properly regulate your
@@ -44,4 +44,4 @@ If you discover a vulnerability within CropSeer, please send an e-mail tokarthik
 
 ## License
 
-CropSeer is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+CropSeer is open-sourced software licensed under the [GNU Lesser General Public License v3.0](https://www.gnu.org/licenses/lgpl-3.0.en.html).
